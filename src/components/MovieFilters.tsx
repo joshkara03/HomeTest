@@ -96,7 +96,7 @@ export function MovieFilters({ onFiltersChange }: MovieFiltersProps) {
                   variant={
                     selectedGenres.includes(genre.id) ? "default" : "outline"
                   }
-                  className="cursor-pointer"
+                  className="cursor-pointer text-white"
                   onClick={() => toggleGenre(genre.id)}
                 >
                   {genre.name}
