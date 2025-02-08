@@ -110,7 +110,7 @@ export function MovieFilters({ onFiltersChange }: MovieFiltersProps) {
 
       {(rating > 0 || year !== "all" || selectedGenres.length > 0) && (
         <Button
-          variant="default"
+          variant="destructive"
           className="w-full"
           onClick={() => {
             setRating(0);
